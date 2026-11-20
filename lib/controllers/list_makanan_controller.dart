@@ -4,72 +4,73 @@ import '../models/makanan_model.dart';
 class ListMakananController extends GetxController {
   List<MakananModel> listMakanan = [
     MakananModel(
-      namaMakanan: "Soto Ayam",
-      hargaMakanan: "12.000",
+      namaMakanan: "Nasi Goreng Spesial",
+      hargaMakanan: "25.000",
       gambarUrl:
-      "https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2023/08/18/805485417.jpg",
+      "https://awsimages.detik.net.id/community/media/visual/2021/08/25/resep-nasi-goreng-sosis-ala-warung-bhakti_43.jpeg?w=1200",
       deskripsi:
-      "Soto ayam kuah kuning gurih dengan suwiran ayam, soun, dan telur rebus. Disajikan dengan taburan bawang goreng dan perasan jeruk nipis.",
-      rating: 4.7,
+      "Nasi goreng bumbu rempah dengan telur mata sapi, ayam suwir, dan kerupuk.",
+      rating: 4.9,
       review: [
-        "Kuahnya gurih banget, bumbunya meresap!",
-        "Porsinya pas, harga ramah kantong.",
-        "Soto terenak di dekat kampus.",
+        "Bumbu rempahnya berasa banget dan wangi smoky! Porsinya pas, ayam suwirnya melimpah, dan telur mata sapinya matang sempurna. Worth it banget sama harganya!",
+        "Nasi goreng favorit tiap kali pesan di sini. Kerupuknya masih renyah pas sampai, rasanya gurih nampol!",
+        "Enak banget dan mengenyangkan. Kalau bisa pedasnya ditambahin sedikit lagi bakal makin mantap!",
       ],
     ),
     MakananModel(
-      namaMakanan: "Pindang Ikan",
-      hargaMakanan: "20.000",
+      namaMakanan: "Ayam Bakar Madu",
+      hargaMakanan: "30.000",
       gambarUrl:
-      "https://image.idn.media/post/20250306/screenshot-2025-0306-1132262-a75fb2b3d4001a687d97e057ec796d42.jpg",
+      "https://img-global.cpcdn.com/recipes/f408cf2e63a88055/1200x630cq80/photo.jpg",
       deskripsi:
-      "Pindang ikan patin dengan kuah bening asam pedas, dicampur tomat, cabai, dan daun kemangi. Segar dan bikin nambah nasi.",
+      "Ayam bakar olesan madu murni lengkap dengan sambal terasi dan lalapan.",
       rating: 4.5,
       review: [
-        "Asam pedasnya nampol, ikan segar.",
-        "Kuahnya seger, cocok buat siang hari.",
-        "Bumbunya pas, nggak terlalu asin.",
+        "Olesan madunya meresap sampai ke tulang, manis gurihnya pas dan daging ayamnya empuk banget. Sambal terasinya juara!",
+        "Paling suka sama ayam bakar madu ini. Lalapannya segar, sambalnya nendang, bikin nambah nasi terus!",
+        "Bumbu bakarnya enak dan gak gosong. Ukurannya juga lumayan besar untuk harga Rp30.000.",
       ],
     ),
     MakananModel(
-      namaMakanan: "Ayam Bakar",
-      hargaMakanan: "35.000",
+      namaMakanan: "Sate Ayam Madura",
+      hargaMakanan: "28.000",
       gambarUrl:
-      "https://assets.unileversolutions.com/recipes-v2/257328.jpg",
+      "https://i.ytimg.com/vi/R0mDzP0A_DQ/maxresdefault.jpg",
       deskripsi:
-      "Ayam bakar yang dimasak dengan penuh cinta, makan satu porsi aja ga cukup!",
+      "10 tusuk sate ayam daging pilihan dengan siraman bumbu kacang kental.",
       rating: 4.8,
       review: [
-        "Bumbunya meresap sempurna",
-        "Ada aroma smoky-nya, enak banget!",
+        "Bumbu kacangnya kental, gurih, dan teksturnya lembut. Potongan daging ayamnya tebal-tebal tanpa banyak lemak. Mantap!",
+        "Satenya enak dan bumbu kacangnya melimpah. Bakal jadi langganan kalau lagi ngidam sate Madura.",
+        "10 tusuk beneran puas banget makannya. Dagingnya juicy, gak kering sama sekali pas dibakar.",
       ],
     ),
     MakananModel(
-      namaMakanan: "Burger",
+      namaMakanan: "Mie Ayam Bakso",
       hargaMakanan: "20.000",
       gambarUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ieoSpIYal4jeiQCPJw4JoEelnnhF0aV_JYBQcUL1rE1snw4ZUoMEglKv&s=10",
+      "https://mc.tanahbumbukab.go.id/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-11-at-17.49.51-1920x1440.jpeg",
       deskripsi:
-      "Burger dengan isian yang super juicy.",
+      "Mie kenyal dengan topping ayam kecap, sawi hijau, dan 2 butir bakso sapi.",
       rating: 4.8,
       review: [
-        "Dagingnya tebel dan ada aroma smokynya, bikin nagih!",
-        "Seladanya segar!",
-        "Saran: wijennya banyakin.",
+        "Tekstur mienya kenyal dan gak gampang putus. Topping ayam kecapnya manis gurih, bakso sapinya juga berasa daging banget!",
+        "Harga Rp20.000 tapi porsinya gak pelit. Sawi hijaunya segar, kuahnya kaldu banget, cocok dimakan pas hujan.",
+        "Mie ayamnya enak, baksonya kenyal. Porsinya pas buat makan siang.",
       ],
     ),
     MakananModel(
-      namaMakanan: "Sate Ayam",
-      hargaMakanan: "10.000",
+      namaMakanan: "Es Teh Manis Jumbo",
+      hargaMakanan: "8.000",
       gambarUrl:
-      "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/02/Resep-Sate-Ayam-Madura.jpg?fit=1920%2C1804&ssl=1",
+      "https://rricoid-assets.obs.ap-southeast-4.myhuaweicloud.com/berita/Bengkulu/o/1719748451929-Screenshot_20240630-185401/jm2m69ldy6d16lx.jpeg",
       deskripsi:
-      "Sate ayam dengan bumbu kacang yang harum dan menggugah selera.",
+      "Minuman teh melati segar dengan gula asli dan es batu kristal.",
       rating: 4.8,
       review: [
-        "Ayamnya fresh, juicy, kayak ada manis-manisnya!",
-        "Menurut saya sih dagingnya agak kurang matang",
-        "Saran: kacangnya banyakin.",
+        "Beneran jumbo ukurannya! Aroma teh melatinya wangi banget dan manisnya pakai gula asli, gak bikin seret di tenggorokan!",
+        "Segar pol! Es batu kristalnya banyak jadi dinginnya awet sampai tetes terakhir. Cocok banget buat nemenin makan berat.",
+        "Murah meriah cuma Rp8.000 tapi gelasnya gede banget. Manisnya pas dan tehnya pekat.",
       ],
     ),
   ];
