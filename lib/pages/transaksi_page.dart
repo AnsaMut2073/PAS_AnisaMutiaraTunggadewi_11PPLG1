@@ -15,7 +15,7 @@ class TransaksiPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-
+            TextField(),
           ],
         ),
       ),
