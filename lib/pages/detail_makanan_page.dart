@@ -73,7 +73,7 @@ class DetailMakananPage extends StatelessWidget {
 
                   ElevatedButton(
                     onPressed: () {
-                      Get.offNamed('/transaksi');
+                      Get.offNamed('/transaksi', arguments: makanan);
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.green,
